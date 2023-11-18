@@ -34,6 +34,7 @@ def crawl(group):
 
 
 if __name__ == "__main__":
+    send_msg("豆瓣租房小组脚本启动吧！")
     while True:
         for g_info in GROUP_LIST:
             crawl(g_info)

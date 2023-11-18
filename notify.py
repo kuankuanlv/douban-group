@@ -24,6 +24,7 @@ def meet_condition(post, start_time):
 
 
 def send_msg(text):
+    text = text + "\n(From douban-group)"
     """
     推送普通消息
     :param text: 消息内容
